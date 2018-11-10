@@ -65,7 +65,7 @@ void GmsManager::ShootGms()
 	{
 		if (!lguidemissiles->empty())
 		{
-			GuidedMissile* gms = dynamic_cast<GuidedMissile*>(lguidemissiles->front());
+			GuidedMissile* gms = lguidemissiles->front();
 			gms->SetDirection(directions[0][i], directions[1][i]);
 			double x, y;
 			GuidedMissile::player->GetXy(x, y);

@@ -61,7 +61,7 @@ void BleManager::ShootBle()
 	{
 		int mx, my;
 		MouseInput::GetMxy(mx, my);
-		Bullet* ble = dynamic_cast<Bullet*>(lbullets->front());
+		Bullet* ble = lbullets->front();
 
 		double x, y;
 		Bullet::player->GetXy(x, y);
