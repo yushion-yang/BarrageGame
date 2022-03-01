@@ -1,0 +1,79 @@
+﻿  BleManager.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\weaponManager\BleManager.cpp”: No such file or directory
+  Bullet.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\weaponManager\Bullet.cpp”: No such file or directory
+  CircleModule.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\module\CircleModule.cpp”: No such file or directory
+  CollisionDetection.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\algorithm\CollisionDetection.cpp”: No such file or directory
+  CombatScene.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\scene\CombatScene.cpp”: No such file or directory
+  Debuff.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\Debuff.cpp”: No such file or directory
+  DogFace.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\enemyIncubator\DogFace.cpp”: No such file or directory
+  EffectsManager.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\effectsManager\EffectsManager.cpp”: No such file or directory
+  Enemy.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\weaponManager\Enemy.cpp”: No such file or directory
+  EnemyIncubator.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\enemyIncubator\EnemyIncubator.cpp”: No such file or directory
+  ExplodeCircle.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\effectsManager\ExplodeCircle.cpp”: No such file or directory
+  FirstInterface.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\scene\FirstInterface.cpp”: No such file or directory
+  FPS.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\UI\FPS.cpp”: No such file or directory
+  GameIntroduction.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\game\GameIntroduction.cpp”: No such file or directory
+  GameManager.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\game\GameManager.cpp”: No such file or directory
+  GameTips.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\game\GameTips.cpp”: No such file or directory
+  GmsManager.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\weaponManager\GmsManager.cpp”: No such file or directory
+  GuidedMissile.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\weaponManager\GuidedMissile.cpp”: No such file or directory
+  KeyboardInput.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\input\KeyboardInput.cpp”: No such file or directory
+  Laser.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\weaponManager\Laser.cpp”: No such file or directory
+  正在生成代码...
+  正在编译...
+  main.cpp
+c1xx : fatal error C1083: 无法打开源文件: “barragegame\barragegame\main.cpp”: No such file or directory
+  MMTimer.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\core\MMTimer.cpp”: No such file or directory
+  Module.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\module\Module.cpp”: No such file or directory
+  MouseInput.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\input\MouseInput.cpp”: No such file or directory
+  Object.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\Object.cpp”: No such file or directory
+  Path.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\Path\Path.cpp”: No such file or directory
+  PathFile.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\Path\PathFile.cpp”: No such file or directory
+  pch.cpp
+c1xx : fatal error C1083: 无法打开源文件: “barragegame\barragegame\pch.cpp”: No such file or directory
+  Player.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\player\Player.cpp”: No such file or directory
+  Point.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\Path\Point.cpp”: No such file or directory
+  RectangleModule.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\module\RectangleModule.cpp”: No such file or directory
+  Scene.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\scene\Scene.cpp”: No such file or directory
+  Skill.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\skillManager\Skill.cpp”: No such file or directory
+  SkillManager.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\skillManager\SkillManager.cpp”: No such file or directory
+  Snatch.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\skillManager\Snatch.cpp”: No such file or directory
+  Timer.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\core\Timer.cpp”: No such file or directory
+  Weapon.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\weaponManager\Weapon.cpp”: No such file or directory
+  WeaponManager.cpp
+c1xx : fatal error C1083: 无法打开源文件: “BarrageGame\BarrageGame\object\weaponManager\WeaponManager.cpp”: No such file or directory
+  正在生成代码...

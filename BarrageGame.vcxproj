@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{2BC5D170-5875-4B72-B013-71BF5C018EF8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="barragegame\algorithm\CollisionDetection.cpp" />
+    <ClCompile Include="barragegame\core\MMTimer.cpp" />
+    <ClCompile Include="barragegame\core\Timer.cpp" />
+    <ClCompile Include="barragegame\game\GameIntroduction.cpp" />
+    <ClCompile Include="barragegame\game\GameManager.cpp" />
+    <ClCompile Include="barragegame\game\GameTips.cpp" />
+    <ClCompile Include="barragegame\input\KeyboardInput.cpp" />
+    <ClCompile Include="barragegame\input\MouseInput.cpp" />
+    <ClCompile Include="barragegame\main.cpp" />
+    <ClCompile Include="barragegame\object\Debuff.cpp" />
+    <ClCompile Include="barragegame\object\effectsmanager\EffectsManager.cpp" />
+    <ClCompile Include="barragegame\object\effectsmanager\ExplodeCircle.cpp" />
+    <ClCompile Include="barragegame\object\enemyincubator\DogFace.cpp" />
+    <ClCompile Include="barragegame\object\enemyincubator\EnemyIncubator.cpp" />
+    <ClCompile Include="barragegame\object\module\CircleModule.cpp" />
+    <ClCompile Include="barragegame\object\module\Module.cpp" />
+    <ClCompile Include="barragegame\object\module\RectangleModule.cpp" />
+    <ClCompile Include="barragegame\object\Object.cpp" />
+    <ClCompile Include="barragegame\object\player\Player.cpp" />
+    <ClCompile Include="barragegame\object\scene\CombatScene.cpp" />
+    <ClCompile Include="barragegame\object\scene\FirstInterface.cpp" />
+    <ClCompile Include="barragegame\object\scene\Scene.cpp" />
+    <ClCompile Include="barragegame\object\skillmanager\Skill.cpp" />
+    <ClCompile Include="barragegame\object\skillmanager\SkillManager.cpp" />
+    <ClCompile Include="barragegame\object\skillmanager\Snatch.cpp" />
+    <ClCompile Include="barragegame\object\weaponmanager\BleManager.cpp" />
+    <ClCompile Include="barragegame\object\weaponmanager\Bullet.cpp" />
+    <ClCompile Include="barragegame\object\weaponmanager\Enemy.cpp" />
+    <ClCompile Include="barragegame\object\weaponmanager\GmsManager.cpp" />
+    <ClCompile Include="barragegame\object\weaponmanager\GuidedMissile.cpp" />
+    <ClCompile Include="barragegame\object\weaponmanager\Laser.cpp" />
+    <ClCompile Include="barragegame\object\weaponmanager\Weapon.cpp" />
+    <ClCompile Include="barragegame\object\weaponmanager\WeaponManager.cpp" />
+    <ClCompile Include="barragegame\path\Path.cpp" />
+    <ClCompile Include="barragegame\path\PathFile.cpp" />
+    <ClCompile Include="barragegame\path\Point.cpp" />
+    <ClCompile Include="barragegame\pch.cpp" />
+    <ClCompile Include="barragegame\ui\FPS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="barragegame\algorithm\CollisionDetection.h" />
+    <ClInclude Include="barragegame\core\ConstValue.h" />
+    <ClInclude Include="barragegame\core\MMTimer.h" />
+    <ClInclude Include="barragegame\core\Timer.h" />
+    <ClInclude Include="barragegame\game\GameIntroduction.h" />
+    <ClInclude Include="barragegame\game\GameManager.h" />
+    <ClInclude Include="barragegame\game\GameTips.h" />
+    <ClInclude Include="barragegame\input\KeyboardInput.h" />
+    <ClInclude Include="barragegame\input\MouseInput.h" />
+    <ClInclude Include="barragegame\object\Debuff.h" />
+    <ClInclude Include="barragegame\object\effectsmanager\EffectsManager.h" />
+    <ClInclude Include="barragegame\object\effectsmanager\ExplodeCircle.h" />
+    <ClInclude Include="barragegame\object\enemyincubator\DogFace.h" />
+    <ClInclude Include="barragegame\object\enemyincubator\Enemy.h" />
+    <ClInclude Include="barragegame\object\enemyincubator\EnemyIncubator.h" />
+    <ClInclude Include="barragegame\object\module\CircleModule.h" />
+    <ClInclude Include="barragegame\object\module\Module.h" />
+    <ClInclude Include="barragegame\object\module\RectangleModule.h" />
+    <ClInclude Include="barragegame\object\Object.h" />
+    <ClInclude Include="barragegame\object\player\Player.h" />
+    <ClInclude Include="barragegame\object\scene\CombatScene.h" />
+    <ClInclude Include="barragegame\object\scene\FirstInterface.h" />
+    <ClInclude Include="barragegame\object\scene\Scene.h" />
+    <ClInclude Include="barragegame\object\skillmanager\Skill.h" />
+    <ClInclude Include="barragegame\object\skillmanager\SkillManager.h" />
+    <ClInclude Include="barragegame\object\skillmanager\Snatch.h" />
+    <ClInclude Include="barragegame\object\weaponmanager\BleManager.h" />
+    <ClInclude Include="barragegame\object\weaponmanager\Bullet.h" />
+    <ClInclude Include="barragegame\object\weaponmanager\GmsManager.h" />
+    <ClInclude Include="barragegame\object\weaponmanager\GuidedMissile.h" />
+    <ClInclude Include="barragegame\object\weaponmanager\Laser.h" />
+    <ClInclude Include="barragegame\object\weaponmanager\Weapon.h" />
+    <ClInclude Include="barragegame\object\weaponmanager\WeaponManager.h" />
+    <ClInclude Include="barragegame\path\Path.h" />
+    <ClInclude Include="barragegame\path\PathFile.h" />
+    <ClInclude Include="barragegame\path\Point.h" />
+    <ClInclude Include="barragegame\pch.h" />
+    <ClInclude Include="barragegame\resource.h" />
+    <ClInclude Include="barragegame\ui\FPS.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

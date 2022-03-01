@@ -1,0 +1,126 @@
+﻿  CollisionDetection.cpp
+  MMTimer.cpp
+  Timer.cpp
+I:\VSProjects\BarrageGame\barragegame\core\Timer.cpp(21,35): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  GameIntroduction.cpp
+  GameManager.cpp
+I:\VSProjects\BarrageGame\barragegame\game\GameManager.cpp(41,18): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  GameTips.cpp
+  KeyboardInput.cpp
+  MouseInput.cpp
+  main.cpp
+  Debuff.cpp
+  EffectsManager.cpp
+  ExplodeCircle.cpp
+I:\VSProjects\BarrageGame\barragegame\object\effectsmanager\ExplodeCircle.cpp(31,8): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  DogFace.cpp
+  EnemyIncubator.cpp
+I:\VSProjects\BarrageGame\barragegame\object\enemyincubator\EnemyIncubator.cpp(86,45): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+I:\VSProjects\BarrageGame\barragegame\object\enemyincubator\EnemyIncubator.cpp(127,55): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\enemyincubator\EnemyIncubator.cpp(127,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\enemyincubator\EnemyIncubator.cpp(127,45): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\enemyincubator\EnemyIncubator.cpp(127,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\enemyincubator\EnemyIncubator.cpp(131,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\enemyincubator\EnemyIncubator.cpp(132,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  CircleModule.cpp
+  Module.cpp
+  RectangleModule.cpp
+I:\VSProjects\BarrageGame\barragegame\object\module\RectangleModule.cpp(47,38): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  Object.cpp
+  Player.cpp
+I:\VSProjects\BarrageGame\barragegame\object\player\Player.cpp(84,12): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\player\Player.cpp(84,9): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  CombatScene.cpp
+  正在生成代码...
+  正在编译...
+  FirstInterface.cpp
+  Scene.cpp
+  Skill.cpp
+  SkillManager.cpp
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\SkillManager.cpp(44,22): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\SkillManager.cpp(44,19): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  Snatch.cpp
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(41,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(42,54): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(42,40): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(42,23): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(42,9): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(43,55): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(43,41): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(43,23): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(43,9): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(61,83): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(61,49): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(61,36): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(61,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\skillmanager\Snatch.cpp(61,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  BleManager.cpp
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\BleManager.cpp(69,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\BleManager.cpp(69,21): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  Bullet.cpp
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Bullet.cpp(57,9): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Bullet.cpp(58,9): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Bullet.cpp(114,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Bullet.cpp(114,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Bullet.cpp(121,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Bullet.cpp(122,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Bullet.cpp(123,36): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Bullet.cpp(123,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  Enemy.cpp
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Enemy.cpp(45,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Enemy.cpp(46,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Enemy.cpp(95,10): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Enemy.cpp(96,10): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Enemy.cpp(97,40): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Enemy.cpp(97,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  GmsManager.cpp
+  GuidedMissile.cpp
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\GuidedMissile.cpp(39,9): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\GuidedMissile.cpp(40,9): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\GuidedMissile.cpp(96,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\GuidedMissile.cpp(97,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\GuidedMissile.cpp(98,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\GuidedMissile.cpp(98,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  Laser.cpp
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(53,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(53,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(53,12): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(53,7): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(54,50): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(54,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(54,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(54,9): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(55,50): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(55,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(55,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(55,9): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(61,62): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(61,58): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(61,43): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(61,33): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(61,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(61,22): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(62,84): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(62,80): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(62,65): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(62,46): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(62,41): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(62,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(63,84): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(63,80): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(63,65): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(63,46): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(63,41): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\object\weaponmanager\Laser.cpp(63,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  Weapon.cpp
+  WeaponManager.cpp
+  Path.cpp
+  PathFile.cpp
+  Point.cpp
+  pch.cpp
+  FPS.cpp
+I:\VSProjects\BarrageGame\barragegame\ui\FPS.cpp(6,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+I:\VSProjects\BarrageGame\barragegame\ui\FPS.cpp(6,39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 _WinMain@16，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+I:\VSProjects\BarrageGame\Debug\BarrageGame.exe : fatal error LNK1120: 1 个无法解析的外部命令
